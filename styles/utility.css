@@ -1,3 +1,33 @@
 .flex {
   display: flex;
 }
+
+.grid {
+  display: grid;
+  gap: 20px;
+}
+
+.header-p {
+  color: var(--red);
+  font: var(--subtitle);
+  margin-bottom: 8px;
+}
+
+.header-h1 {
+  color: var(--gray-100);
+  font: var(--title-md);
+  margin-bottom: 56px;
+}
+
+.figcaption-p {
+  font: var(--text-sm);
+  color: var(--gray-200);
+  padding: 4px;
+}
+
+.h1-sm {
+  font: var(--title-sm);
+  color: var(--gray-100);
+  padding: 4px;
+  margin-top: 20px;
+}

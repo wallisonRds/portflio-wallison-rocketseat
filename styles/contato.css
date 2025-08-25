@@ -1,0 +1,50 @@
+.banner-contato {
+  background: url(../assets/images/Background_Contacts.png) no-repeat right;
+  padding-block: 128px 200px;
+}
+
+.contato-p {
+  font: var(--subtitle);
+  color: var(--purple);
+}
+
+.contato-h1 {
+  margin-top: 0px;
+  padding-top: 8px;
+}
+
+.contato {
+  margin-top: 48px;
+  flex-direction: column;
+  align-items: center;
+  gap: 16px;
+
+  .contato-lista {
+    width: 400px;
+    background-color: var(--gray-400);
+    padding-block: 23px;
+    padding-inline: 20px;
+    justify-content: space-between;
+    border-radius: 8px;
+    border: 1px solid var(--gray-400);
+  }
+
+  .contato-lista:hover {
+    border: 1px solid var(--blue);
+  }
+
+  .contato-lista a {
+    align-items: center;
+    gap: 12px;
+    color: var(--gray-200);
+  }
+  .contato-lista img {
+    width: 32px;
+    height: 32px;
+  }
+
+  #seta {
+    width: 20px;
+    height: 20px;
+  }
+}

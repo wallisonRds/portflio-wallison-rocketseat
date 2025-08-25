@@ -1,0 +1,29 @@
+.bg-2 {
+  background-color: var(--gray-500);
+  padding-block: 72px 144px;
+}
+
+header {
+  text-align: center;
+}
+
+.projetos {
+  grid-template-areas:
+    "figure figure figure"
+    "figure figure figure";
+  justify-content: center;
+
+  img {
+    width: 306px;
+    height: 156px;
+    border-radius: 8px;
+  }
+
+  .card {
+    background-color: var(--gray-400);
+    padding: 12px;
+    width: 330px;
+    height: 280px;
+    border-radius: 8px;
+  }
+}
